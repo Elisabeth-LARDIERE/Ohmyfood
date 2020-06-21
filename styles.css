@@ -1,6 +1,12 @@
 /******************** GENERAL ********************/
 
-/********** fonts **********/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*************** fonts ***************/
 
 /* montserrat-regular - latin */
 @font-face {
@@ -44,6 +50,20 @@
     url("fonts/croissant-one/croissant-one-v7-latin-regular.svg#CroissantOne") format("svg"); /* Legacy iOS */
 }
 
+/* noto-serif-regular - latin */
+@font-face {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/noto-serif/noto-serif-v8-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Noto Serif'), local('NotoSerif'),
+    url('/fonts/noto-serif/noto-serif-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/fonts/noto-serif/noto-serif-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/noto-serif/noto-serif-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('/fonts/noto-serif/noto-serif-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/fonts/noto-serif/noto-serif-v8-latin-regular.svg#NotoSerif') format('svg'); /* Legacy iOS */
+}
+
 /* dancing-script-regular - latin */
 @font-face {
     font-family: "Dancing Script";
@@ -72,12 +92,6 @@
     url("fonts/kaushan-script/kaushan-script-v8-latin-regular.svg#KaushanScript") format("svg"); /* Legacy iOS */
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /******************** BODY ********************/
 body {
     display: flex;
@@ -86,7 +100,14 @@ body {
 
 header, footer, #soon {
     font-family: Montserrat, serif;
+    background-color: #569C87;
+    color: #F1C64C;
 }
+
+a {
+    text-decoration: none;
+}
+
 /******************** HEADER ********************/
 
 header {
@@ -100,7 +121,6 @@ header {
 /******************** MAIN ********************/
 
 main {
-    border: solid orange;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,17 +130,16 @@ main {
 /*************** Section menus ***************/
 
 #menus {
-    border: solid red;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 60px;
+    padding: 30px;
     width: 80%;
 }
 
 .menus__menu-item {
     border: solid black;
-    width: 400px;
+    width: 370px;
     height: 500px;
     margin: 40px;
     display: flex;
@@ -129,10 +148,49 @@ main {
     align-items: center;
 }
 
+.note {
+    font-family: Devonshire, serif;
+    font-size: 20px;
+}
+
+.chic {
+    font-family: "Croissant One", serif;
+    font-size: 15px;
+}
+
+.delice {
+    font-family: "Dancing Script", serif;
+    font-size: 23px;
+}
+
+.palette {
+    font-family: "Kaushan Script", serif;
+    font-size: 20px;
+}
+
+p {
+    margin-top: 15px;
+    font-family: "Segoe Print", serif;
+    font-size: 35px;
+}
+
+.note p {
+    text-transform: uppercase;
+}
+
+.chic p {
+    font-family: "Noto Serif", serif;
+}
+
 /*************** Section soon ***************/
 
 #soon {
-    border: solid violet;
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: 70px;
+    width: 30%;
+    text-align: center;
+    border-radius: 16px;
 }
 
 /******************** FOOTER ********************/
@@ -145,5 +203,8 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
 }
-
+.footer__button {
+    color: #F1C64C;
+    font-size: 30px;
+}
 
