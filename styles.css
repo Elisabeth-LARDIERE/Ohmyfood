@@ -71,3 +71,79 @@
     url("fonts/kaushan-script/kaushan-script-v8-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
     url("fonts/kaushan-script/kaushan-script-v8-latin-regular.svg#KaushanScript") format("svg"); /* Legacy iOS */
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/******************** BODY ********************/
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer, #soon {
+    font-family: Montserrat, serif;
+}
+/******************** HEADER ********************/
+
+header {
+    min-height: 20vh;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/******************** MAIN ********************/
+
+main {
+    border: solid orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*************** Section menus ***************/
+
+#menus {
+    border: solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px;
+    width: 80%;
+}
+
+.menus__menu-item {
+    border: solid black;
+    width: 400px;
+    height: 500px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*************** Section soon ***************/
+
+#soon {
+    border: solid violet;
+}
+
+/******************** FOOTER ********************/
+
+footer {
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
