@@ -112,10 +112,13 @@ a {
 
 header {
     min-height: 20vh;
-    font-size: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+h1 {
+    font-size: 70px;
 }
 
 /******************** MAIN ********************/
