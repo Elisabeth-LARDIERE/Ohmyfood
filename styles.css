@@ -115,16 +115,21 @@ a {
 
 h1 {
     font-size: 70px;
+    letter-spacing: -5px;
+}
+
+h2 {
+    font-weight: normal;
 }
 
 h3 {
-    font-size: 35px;
+    font-weight: normal;
 }
-
 h4 {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
-    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 /******************** HEADER ********************/
@@ -143,8 +148,6 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    /*border: solid red;*/
 }
 
 /*************** Section menus ***************/
@@ -217,6 +220,7 @@ main {
 /*************** Section soon ***************/
 
 #soon {
+    font-size: 35px;
     padding: 20px;
     margin-bottom: 70px;
     width: 30%;
@@ -235,14 +239,24 @@ main {
     padding-right: 20px;
     margin-top: 80px;
 }
+
 .footer__button {
     color: #F1C64C;
     font-size: 30px;
+    font-weight: bold;
 }
 
 /******************** DETAILED MENUS ********************/
 
-/********** Header detailed menus **********/
+.menu__menu-main-heading {
+    font-family: Montserrat, serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+/*************** Header detailed menus ***************/
 
 .menu__menu-heading-top {
     display: flex;
@@ -250,61 +264,101 @@ main {
     align-items: center;
     padding-top: 45px;
     padding-bottom: 25px;
-    /*border: solid blue;*/
 }
 
-.top-note i {
+/********** header menu note **********/
+
+.top-note .icon {
     font-size: 70px;
 }
 
 .top-note h3 {
+    font-family: Devonshire, serif;
+    font-size: 50px;
+}
+
+/********** header menu chic **********/
+
+.top-chic {
+    font-family: "Croissant One", serif;
     font-size: 45px;
-    font-weight: normal;
 }
 
-/********** Section detailed menus **********/
+/********** header menu delice **********/
 
-.menu__menu-main-heading {
-    font-family: Montserrat, serif;
-    font-size: 40px;
-    padding-top: 35px;
-    padding-bottom: 25px;
+.top-delice {
+    font-family: "Dancing Script", serif;
+    font-size: 70px;
 }
+
+/********** header menu palette **********/
+
+.top-palette {
+    font-family: "Kaushan Script", serif;
+    font-size: 65px;
+}
+
+/*************** Section detailed menus ***************/
 
 .menu__menu-details {
     display: flex;
     flex-direction: column;
     border: solid black;
     font-family: "Segoe Print", serif;
+    font-size: 20px;
     width: 60%;
 }
 
-.menu__menu-details h3 {
-    font-family: "Devonshire", serif;
+.menu__menu-choice {
+    padding-bottom: 30px;
 }
 
 .menu__menu-details p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
     padding-bottom: 20px;
     padding-right: 70px;
     padding-left: 70px;
 }
 
-/********** Footer detailed menus **********/
+span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/********** detailed menu chic **********/
+
+.details-chic {
+    font-family: "Noto Serif", serif;
+}
+
+.details-chic p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+/*************** Footer detailed menus ***************/
 
 .menu__menu-heading-bottom {
     display: flex;
     justify-content: center;
-    padding: 50px;
-    /*border: solid red;*/
+    padding: 40px;
 }
 
-.bottom-note i {
-    font-size: 40px;
+/********** footer menu note **********/
+
+.bottom-note .icon {
+    font-size: 55px;
     padding-right: 15px;
 }
 
 .bottom-note h3 {
-    font-weight: normal;
+    font-family: Devonshire, serif;
+    font-size: 40px;
 }
+
+
+
 
 
