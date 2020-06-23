@@ -121,6 +121,12 @@ h3 {
     font-size: 35px;
 }
 
+h4 {
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
 /******************** HEADER ********************/
 
 .main-header {
@@ -138,7 +144,7 @@ main {
     align-items: center;
     justify-content: center;
 
-    border: solid red;
+    /*border: solid red;*/
 }
 
 /*************** Section menus ***************/
@@ -162,7 +168,7 @@ main {
     align-items: center;
 }
 
-.menus__menu-heading {
+.menus__menu-title {
     margin-top: 15px;
     font-family: "Segoe Print", serif;
     font-size: 35px;
@@ -179,7 +185,7 @@ main {
     font-size: 20px;
 }
 
-.heading-note {
+.title-note {
     text-transform: uppercase;
 }
 
@@ -190,7 +196,7 @@ main {
     font-size: 15px;
 }
 
-.heading-chic {
+.title-chic {
     font-family: "Noto Serif", serif;
 }
 
@@ -206,54 +212,6 @@ main {
 .item-palette {
     font-family: "Kaushan Script", serif;
     font-size: 20px;
-}
-
-/*************** Detailed menus ***************/
-
-.menu__menu-details {
-    display: flex;
-    flex-direction: column;
-    border: solid green;
-    font-family: "Segoe Print", serif;
-}
-
-.menu__menu-details h3 {
-    font-family: "Devonshire", serif;
-}
-
-/********** header detailed menus **********/
-
-.menu__menu-title-top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: solid blue;
-}
-
-.top-note i {
-    font-size: 70px;
-}
-
-.top-note h3 {
-    font-size: 45px;
-    font-weight: normal;
-}
-
-/********** footer detailed menus **********/
-
-.menu__menu-title-bottom {
-    display: flex;
-    justify-content: center;
-    border: solid red;
-}
-
-.bottom-note i {
-    font-size: 40px;
-    padding-right: 15px;
-}
-
-.bottom-note h3 {
-    font-weight: normal;
 }
 
 /*************** Section soon ***************/
@@ -275,9 +233,78 @@ main {
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 80px;
 }
 .footer__button {
     color: #F1C64C;
     font-size: 30px;
 }
+
+/******************** DETAILED MENUS ********************/
+
+/********** Header detailed menus **********/
+
+.menu__menu-heading-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    /*border: solid blue;*/
+}
+
+.top-note i {
+    font-size: 70px;
+}
+
+.top-note h3 {
+    font-size: 45px;
+    font-weight: normal;
+}
+
+/********** Section detailed menus **********/
+
+.menu__menu-main-heading {
+    font-family: Montserrat, serif;
+    font-size: 40px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.menu__menu-details {
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    font-family: "Segoe Print", serif;
+    width: 60%;
+}
+
+.menu__menu-details h3 {
+    font-family: "Devonshire", serif;
+}
+
+.menu__menu-details p {
+    padding-bottom: 20px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+/********** Footer detailed menus **********/
+
+.menu__menu-heading-bottom {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    /*border: solid red;*/
+}
+
+.bottom-note i {
+    font-size: 40px;
+    padding-right: 15px;
+}
+
+.bottom-note h3 {
+    font-weight: normal;
+}
+
 
