@@ -161,7 +161,7 @@ main {
 }
 
 .menus__menu-item {
-    border: solid black;
+    box-shadow: 0 0 40px 5px #E2E2E2;
     width: 370px;
     height: 500px;
     margin: 40px;
@@ -344,7 +344,7 @@ main {
 .menu__menu-details {
     display: flex;
     flex-direction: column;
-    border: solid black;
+    box-shadow: 0 0 35px 10px #E2E2E2;
     font-family: "Segoe Print", serif;
     font-size: 20px;
     width: 60%;
