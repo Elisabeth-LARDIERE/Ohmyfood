@@ -267,6 +267,9 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom:0;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 80px;
