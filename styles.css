@@ -186,19 +186,33 @@ main {
 .item-note {
     font-family: Devonshire, serif;
     font-size: 20px;
+    color: #3D1319;
     background-color: #FCDFDB;
+}
+
+.item-note a {
+    color: #3D1319;
 }
 
 .title-note {
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 /********** menu chic **********/
 
 .item-chic {
     font-family: "Croissant One", serif;
+    font-weight: bold;
+    color: #E1891D;
     font-size: 15px;
     background-color: #FFF5FE;
+}
+
+.item-chic h2 {
+    background: -webkit-linear-gradient(left top, #E1891D 20%, #AF77A5 60%, #A086DE 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .title-chic {
@@ -211,6 +225,13 @@ main {
     font-family: "Dancing Script", serif;
     font-size: 23px;
     background-color: #F9F9F9;
+    color: #0887FB;
+}
+
+.item-delice h2 {
+    background: -webkit-linear-gradient(left, #0228DD, #2782F2, #229DF9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /********** menu palette **********/
@@ -219,6 +240,13 @@ main {
     font-family: "Kaushan Script", serif;
     font-size: 20px;
     background-color: #FDFFFD;
+    color: #73C058;
+}
+
+.item-palette h2 {
+    background: -webkit-linear-gradient(left, #3F933A, #73C058, #BEFF7F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /*************** Section soon ***************/
@@ -286,6 +314,9 @@ main {
 .top-chic {
     font-family: "Croissant One", serif;
     font-size: 45px;
+    background: -webkit-linear-gradient(left top, #E1891D 20%, #AF77A5 60%, #A086DE 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /********** header menu delice **********/
@@ -293,6 +324,9 @@ main {
 .top-delice {
     font-family: "Dancing Script", serif;
     font-size: 70px;
+    background: -webkit-linear-gradient(left, #0228DD, #2782F2, #229DF9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /********** header menu palette **********/
@@ -300,6 +334,9 @@ main {
 .top-palette {
     font-family: "Kaushan Script", serif;
     font-size: 65px;
+    background: -webkit-linear-gradient(left, #3F933A, #73C058, #BEFF7F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /*************** Section detailed menus ***************/
@@ -335,6 +372,7 @@ span {
 
 .details-note {
     background-color: #FCDFDB;
+    color: #3D1319;
 }
 
 /********** detailed menu chic **********/
@@ -349,11 +387,24 @@ span {
     padding-bottom: 20px;
 }
 
+.starter-chic {
+    color: #E1891D;
+}
+
+.dish-chic {
+    color: #AF77A5;
+}
+
+.dessert-chic {
+    color: #A086DE;
+}
 /********** detailed menu delice **********/
 
 .details-delice {
     background-color: #EDEFEF;
 }
+
+
 
 /********** detailed menu palette **********/
 
