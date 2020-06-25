@@ -354,14 +354,6 @@ header .icon-note {
     padding-bottom: 80px;
 }
 
-.line-left {
-    padding-left: 70px;
-}
-
-.line-right {
-    padding-right: 70px;
-}
-
 .menu__menu-choice {
     padding-bottom: 30px;
 }
@@ -387,6 +379,14 @@ span {
     color: #3D1319;
 }
 
+.line-left-note {
+    padding-left: 70px;
+}
+
+.line-right-note {
+    padding-right: 70px;
+}
+
 /********** detailed menu chic **********/
 
 .details-chic {
@@ -401,6 +401,16 @@ span {
 
 .starter-chic {
     color: #E1891D;
+}
+
+.line-left-chic {
+    padding-left: 15px;
+    width: 33%;
+}
+
+.line-right-chic {
+    padding-right: 15px;
+    width: 33%;
 }
 
 .dish-chic {
