@@ -426,7 +426,15 @@ span {
     background-color: #EDEFEF;
 }
 
+.line-left-delice {
+    padding-left: 30px;
+    width: 33%;
+}
 
+.line-right-delice {
+    padding-right: 30px;
+    width: 33%;
+}
 
 /********** detailed menu palette **********/
 
