@@ -126,7 +126,9 @@ h3 {
     font-weight: normal;
 }
 h4 {
-    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 40px;
@@ -350,6 +352,14 @@ header .icon-note {
     width: 60%;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.line-left {
+    padding-left: 70px;
+}
+
+.line-right {
+    padding-right: 70px;
 }
 
 .menu__menu-choice {
