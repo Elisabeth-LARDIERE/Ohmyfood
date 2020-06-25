@@ -441,6 +441,16 @@ span {
 .details-palette {
     background-color: #FDFFFD;
 }
+
+.line-left-palette {
+    padding-left: 30px;
+    width: 35%;
+}
+
+.line-right-palette {
+    padding-right: 30px;
+    width: 35%;
+}
 /*************** Footer detailed menus ***************/
 
 .menu__menu-heading-bottom {
