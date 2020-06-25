@@ -179,10 +179,9 @@ main {
 
 /********** menu note **********/
 
-.fas {
-    font-size: 50px;
+.icon-note {
+    width: 12%;
 }
-
 .item-note {
     font-family: Devonshire, serif;
     font-size: 20px;
@@ -267,7 +266,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: -webkit-sticky;
     position: sticky;
     bottom:0;
     padding-left: 20px;
@@ -297,16 +295,15 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 45px;
-    padding-bottom: 25px;
+    /*padding-top: 85px;*/
+    padding-bottom: 65px;
 }
 
 /********** header menu note **********/
 
-.top-note .fas {
-    font-size: 70px;
+header .icon-note {
+    width: 80px;
 }
-
 .top-note h3 {
     font-family: Devonshire, serif;
     font-size: 50px;
@@ -351,6 +348,8 @@ main {
     font-family: "Segoe Print", serif;
     font-size: 20px;
     width: 60%;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .menu__menu-choice {
@@ -424,11 +423,10 @@ span {
 
 /********** footer menu note **********/
 
-.bottom-note .fas {
-    font-size: 55px;
-    padding-right: 15px;
+footer .icon-note {
+    width: 60px;
+    padding-right: 10px;
 }
-
 .bottom-note h3 {
     font-family: Devonshire, serif;
     font-size: 40px;
