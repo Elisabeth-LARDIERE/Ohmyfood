@@ -281,6 +281,24 @@ main {
     font-weight: bold;
 }
 
+@keyframes wiggle {
+    from {
+        transform: rotate(-3deg);
+        transform-origin: center;
+    }
+    to {
+        transform: rotate(3deg);
+    }
+}
+
+.footer__button:hover {
+    animation: wiggle 100ms ease-in-out infinite alternate;
+}
+
+/*.footer__button:hover {
+    animation: wiggle 2s ease-in-out 2s infinite alternate;
+}*/
+
 /******************** DETAILED MENUS ********************/
 
 .menu__menu-main-heading {
