@@ -126,12 +126,12 @@ h3 {
     font-weight: normal;
 }
 h4 {
-    display: flex;
-    justify-content: space-between;
+    /*display: flex;
+    justify-content: space-between;*/
     font-size: 22px;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 /******************** HEADER ********************/
@@ -196,7 +196,7 @@ main {
 /********** menu note **********/
 
 .icon-note {
-    width: 12%;
+    width: 30%;
 }
 .item-note {
     font-family: Devonshire, serif;
@@ -376,6 +376,11 @@ main {
     padding-bottom: 25px;
 }
 
+.menu__menu-details-title {
+    display: flex;
+    justify-content: space-between;
+}
+
 /*************** Header detailed menus ***************/
 
 .menu__menu-heading-top {
@@ -437,6 +442,11 @@ header .icon-note {
     width: 60%;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.menu__menu-details-title {
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
 
 .menu__menu-choice {
