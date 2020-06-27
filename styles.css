@@ -173,6 +173,20 @@ main {
     align-items: center;
 }
 
+.zoom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1.5s;
+    opacity: 1;
+}
+
+.zoom:hover {
+    transform: scale(1.3);
+    opacity: 0.3;
+}
+
 .menus__menu-title {
     margin-top: 15px;
     font-family: "Segoe Print", serif;
@@ -339,7 +353,7 @@ main {
 }
 
 .footer__button:hover {
-    animation: wiggle 100ms ease-in-out infinite alternate;
+    animation: wiggle 100ms ease-in-out 8 alternate;
 }
 
 @keyframes wiggle {
