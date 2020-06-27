@@ -253,12 +253,69 @@ main {
 /*************** Section soon ***************/
 
 #soon {
+    display: flex;
     font-size: 35px;
     padding: 20px;
     margin-bottom: 70px;
     width: 30%;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     border-radius: 16px;
+}
+
+#soon h3 {
+    padding-right: 10px;
+}
+
+.dots {
+    font-size: 50px;
+    margin-bottom: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.dots:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.dots:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1,1)
+        translateY(0);
+    }
+    10% {
+        transform: scale(1.1, 0.9)
+        translateY(0);
+    }
+    30% {
+        transform: scale(0.9,1.1)
+        translateY(-15px);
+    }
+    60% {
+        transform: scale(1.05, 0.95)
+        translateY(0);
+    }
+    70% {
+        transform: scale(1,1)
+        translateY(0);
+    }
+    95% {
+        transform: scale(1.1, 0.9)
+        translateY(0);
+    }
+    100% {
+        transform: scale(1.05,0.95)
+        translateY(0);
+    }
 }
 
 /******************** FOOTER ********************/
@@ -281,6 +338,10 @@ main {
     font-weight: bold;
 }
 
+.footer__button:hover {
+    animation: wiggle 100ms ease-in-out infinite alternate;
+}
+
 @keyframes wiggle {
     from {
         transform: rotate(-3deg);
@@ -290,14 +351,6 @@ main {
         transform: rotate(3deg);
     }
 }
-
-.footer__button:hover {
-    animation: wiggle 100ms ease-in-out infinite alternate;
-}
-
-/*.footer__button:hover {
-    animation: wiggle 2s ease-in-out 2s infinite alternate;
-}*/
 
 /******************** DETAILED MENUS ********************/
 
@@ -483,6 +536,7 @@ footer .icon-note {
     width: 60px;
     padding-right: 10px;
 }
+
 .bottom-note h3 {
     font-family: Devonshire, serif;
     font-size: 40px;
