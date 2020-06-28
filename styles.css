@@ -284,9 +284,7 @@ main {
 #soon {
     display: flex;
     font-size: 35px;
-    padding: 20px;
-    margin-bottom: 70px;
-    width: 30%;
+    padding: 20px 40px;
     justify-content: center;
     align-items: center;
     border-radius: 16px;
@@ -350,7 +348,7 @@ main {
 /******************** FOOTER ********************/
 
 .main-footer {
-    min-height: 10vh;
+    min-height: 12vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -667,5 +665,37 @@ footer .icon-note {
     visibility: visible;
     background-color: #569C87;
 }
+
+
+/******************** MEDIA QUERIES ********************/
+
+
+/*************** Extra Small Devices ***************/
+
+@media screen and (max-width: 430px) {
+
+}
+
+/*************** Small Devices ***************/
+
+@media screen and (max-width: 767px) {
+
+}
+
+/*************** Medium Devices ***************/
+
+@media screen and (max-width: 991px) {
+
+}
+
+/*************** Large Devices ***************/
+
+@media screen and (max-width: 1199px) {
+
+}
+
+
+
+
 
 
