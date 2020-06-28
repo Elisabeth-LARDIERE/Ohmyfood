@@ -118,6 +118,10 @@ h1 {
     letter-spacing: -5px;
 }
 
+h1 a {
+    color: #F1C64C;
+}
+
 h2 {
     font-weight: normal;
 }
