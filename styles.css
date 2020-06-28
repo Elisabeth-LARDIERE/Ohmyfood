@@ -125,13 +125,24 @@ h2 {
 h3 {
     font-weight: normal;
 }
+
 h4 {
-    /*display: flex;
-    justify-content: space-between;*/
     font-size: 22px;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+}
+
+h4::after {
+    display: block;
+    content:"";
+    width: 0;
+    height: 2px;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+h4:hover::after {
+    visibility: visible;
+    width: 100%;
 }
 
 /******************** HEADER ********************/
@@ -446,7 +457,7 @@ header .icon-note {
 
 .menu__menu-details-title {
     padding-top: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .menu__menu-choice {
@@ -482,20 +493,19 @@ span {
     padding-right: 70px;
 }
 
+.details-note h4::after {
+    background-color: #3D1319;
+}
+
+.dessert-note h4::after {
+    height: 7%;
+}
+
 /********** detailed menu chic **********/
 
 .details-chic {
     font-family: "Noto Serif", serif;
     background-color: #FFF5FE;
-}
-
-.details-chic p {
-    font-size: 20px;
-    padding-bottom: 20px;
-}
-
-.starter-chic {
-    color: #E1891D;
 }
 
 .line-left-chic {
@@ -508,13 +518,39 @@ span {
     width: 33%;
 }
 
+.details-chic p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.details-chic h4::after {
+    height: 8%;
+}
+
+.starter-chic {
+    color: #E1891D;
+}
+
+.starter-chic h4::after {
+    background-color: #E1891D;
+}
+
 .dish-chic {
     color: #AF77A5;
+}
+
+.dish-chic h4::after {
+    background-color: #AF77A5;
 }
 
 .dessert-chic {
     color: #A086DE;
 }
+
+.dessert-chic h4::after {
+    background-color: #A086DE;
+}
+
 /********** detailed menu delice **********/
 
 .details-delice {
@@ -529,6 +565,21 @@ span {
 .line-right-delice {
     padding-right: 30px;
     width: 33%;
+}
+
+.starter-delice h4::after {
+    background-color: #0228DD;
+    height: 3px;
+}
+
+.dish-delice h4::after {
+    background-color: #2782F2;
+    height: 3px;
+}
+
+.dessert-delice h4::after {
+    background-color: #229DF9;
+    height: 3px;
 }
 
 /********** detailed menu palette **********/
@@ -546,6 +597,22 @@ span {
     padding-right: 30px;
     width: 35%;
 }
+
+.starter-palette h4::after {
+    background-color: #3F933A ;
+    height: 3px;
+}
+
+.dish-palette h4::after {
+    background-color: #73C058 ;
+    height: 3px;
+}
+
+.dessert-palette h4::after {
+    background-color: #BEFF7F;
+    height: 7%;
+}
+
 /*************** Footer detailed menus ***************/
 
 .menu__menu-heading-bottom {
