@@ -633,7 +633,35 @@ footer .icon-note {
     font-size: 40px;
 }
 
+/******************** TERMS ********************/
 
+#terms {
+    width: 80%;
+    font-family: Montserrat, serif ;
+    font-size: 20px;
+    line-height: 1.5;
+}
 
+#terms h2 {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#terms h2::after {
+    content:"";
+    display: block;
+    width: 0;
+    height: 2px;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+#terms h2:hover::after {
+    width: 100%;
+    visibility: visible;
+    background-color: #569C87;
+}
 
 
