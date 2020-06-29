@@ -288,6 +288,7 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 16px;
+    margin-bottom: 70px;
 }
 
 #soon h3 {
@@ -325,7 +326,7 @@ main {
     }
     30% {
         transform: scale(0.9,1.1)
-        translateY(-15px);
+        translateY(-0.3em);
     }
     60% {
         transform: scale(1.05, 0.95)
@@ -356,7 +357,7 @@ main {
     bottom:0;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 80px;
+    /*margin-top: 80px;*/
 }
 
 .footer__button {
@@ -674,9 +675,15 @@ footer .icon-note {
 
 @media screen and (max-width: 320px) {
 
+/********** Home **********/
+
+    /***** headings *****/
+
     h1 {
         font-size: 50px;
     }
+
+    /***** section menus *****/
 
     #menus {
         width: 100%;
@@ -693,19 +700,21 @@ footer .icon-note {
         transform: scale(1.1);
     }
 
+    /***** section soon *****/
+
     #soon {
-        width: 270px;
+        width: 280px;
         font-size: 20px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        margin-bottom: 60px;
     }
 
     .dots {
         font-size: 25px;
     }
 
+    /***** footer *****/
+
     .main-footer {
-        margin-top: 60px;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -717,33 +726,47 @@ footer .icon-note {
 
 /*************** Small Devices ***************/
 
-@media screen and (min-width: 321px) and (max-width: 767px) {
+@media screen and (min-width: 321px) and (max-width: 479px) {
+
+/********** Home **********/
+
+    /***** headings *****/
 
     h1 {
         font-size: 60px;
     }
 
+    /***** section menus *****/
+
+    #menus {
+        width: 100%;
+    }
+
     .menus__menu-item {
+        height: 470px;
         margin: 20px 0;
+
     }
 
     .zoom:hover {
         transform: scale(1.2);
     }
 
+    /***** section soon *****/
+
     #soon {
         width: 300px;
         font-size: 20px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        margin-bottom: 50px;
     }
 
     .dots {
         font-size: 25px;
     }
 
+    /***** footer *****/
+
     .main-footer {
-        margin-top: 40px;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -755,15 +778,23 @@ footer .icon-note {
 
 /*************** Medium Devices ***************/
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+
+/********** Home **********/
+
+    /***** headings *****/
 
     h1 {
         font-size: 80px;
     }
 
+    /***** section soon *****/
+
     #soon {
         margin-top: 10px;
     }
+
+    /***** footer *****/
 
     .main-footer {
         padding-left: 30px;
@@ -778,7 +809,11 @@ footer .icon-note {
 
 /*************** Large Devices ***************/
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+
+/********** Home **********/
+
+    /***** section menus *****/
 
     #menus {
         width: 100%;
@@ -786,23 +821,35 @@ footer .icon-note {
         padding-right: 20px;
     }
 
+    /***** section soon *****/
+
     #soon {
-        padding-top: 0;
-        padding-bottom: 0;
+        margin-bottom: 60px;
     }
 }
 
 /*************** Extra Large Devices ***************/
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
 
-    #menus {
-        width: 100%;
-        padding: 0;
+/********** Home **********/
+
+    /***** headings *****/
+
+    h1 {
+        font-size: 80px;
     }
+
+    /***** section menus *****/
 
     .menus__menu-item {
         margin: 70px;
+    }
+
+    /***** section soon *****/
+
+    #soon {
+        margin-bottom: 80px;
     }
 }
 
