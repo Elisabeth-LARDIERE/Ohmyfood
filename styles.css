@@ -672,19 +672,107 @@ footer .icon-note {
 
 /*************** Extra Small Devices ***************/
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 320px) {
 
+    h1 {
+        font-size: 50px;
+    }
+
+    #menus {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .menus__menu-item {
+        margin: 0 0 30px;
+        height: 380px;
+    }
+
+    .zoom:hover {
+        transform: scale(1.1);
+    }
+
+    #soon {
+        width: 270px;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .dots {
+        font-size: 25px;
+    }
+
+    .main-footer {
+        margin-top: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .footer__button {
+        font-size: 16px;
+    }
 }
 
 /*************** Small Devices ***************/
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 321px) and (max-width: 767px) {
 
+    h1 {
+        font-size: 60px;
+    }
+
+    .menus__menu-item {
+        margin: 20px 0;
+    }
+
+    .zoom:hover {
+        transform: scale(1.2);
+    }
+
+    #soon {
+        width: 300px;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .dots {
+        font-size: 25px;
+    }
+
+    .main-footer {
+        margin-top: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .footer__button {
+        font-size: 18px;
+    }
 }
 
 /*************** Medium Devices ***************/
 
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    h1 {
+        font-size: 80px;
+    }
+
+    #soon {
+        margin-top: 10px;
+    }
+
+    .main-footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .footer__button {
+        font-size: 35px;
+    }
 
 }
 
@@ -692,6 +780,30 @@ footer .icon-note {
 
 @media screen and (max-width: 1199px) {
 
+    #menus {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #soon {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+/*************** Extra Large Devices ***************/
+
+@media screen and (min-width: 1200px) {
+
+    #menus {
+        width: 100%;
+        padding: 0;
+    }
+
+    .menus__menu-item {
+        margin: 70px;
+    }
 }
 
 
