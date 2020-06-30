@@ -462,13 +462,10 @@ header .icon-note {
     padding-bottom: 40px;
 }
 
-.menu__menu-choice {
-    padding-bottom: 30px;
-}
-
 .menu__menu-details p {
     display: flex;
     justify-content: space-between;
+    min-width: max-content;
     font-size: 18px;
     padding-bottom: 20px;
     padding-right: 70px;
