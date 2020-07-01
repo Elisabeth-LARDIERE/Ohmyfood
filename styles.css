@@ -15,11 +15,7 @@
     font-weight: 400;
     src: url("fonts/montserrat/montserrat-v14-latin-regular.eot"); /* IE9 Compat Modes */
     src: local("Montserrat Regular"), local("Montserrat-Regular"),
-    url("fonts/montserrat/montserrat-v14-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("fonts/montserrat/montserrat-v14-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
-    url("fonts/montserrat/montserrat-v14-latin-regular.woff") format("woff"), /* Modern Browsers */
-    url("fonts/montserrat/montserrat-v14-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("fonts/montserrat/montserrat-v14-latin-regular.svg#Montserrat") format("svg"); /* Legacy iOS */
+    url("fonts/montserrat/montserrat-v14-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("fonts/montserrat/montserrat-v14-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */ url("fonts/montserrat/montserrat-v14-latin-regular.woff") format("woff"), /* Modern Browsers */ url("fonts/montserrat/montserrat-v14-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */ url("fonts/montserrat/montserrat-v14-latin-regular.svg#Montserrat") format("svg"); /* Legacy iOS */
 }
 
 /* devonshire-regular - latin */
@@ -29,11 +25,7 @@
     font-weight: 400;
     src: url('fonts/devonshire/devonshire-v8-latin-regular.eot');/* IE9 Compat Modes */
     src: local("Devonshire-Regular"),
-    url("fonts/devonshire/devonshire-v8-latin-regular.eot?#iefix") format("embedded-opentype"), /*IE6-IE8*/
-    url("fonts/devonshire/devonshire-v8-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
-    url("fonts/devonshire/devonshire-v8-latin-regular.woff") format("woff"), /* Modern Browsers */
-    url("fonts/devonshire/devonshire-v8-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("fonts/devonshire/devonshire-v8-latin-regular.svg#Devonshire") format("svg"); /* Legacy iOS */
+    url("fonts/devonshire/devonshire-v8-latin-regular.eot?#iefix") format("embedded-opentype"), /*IE6-IE8*/ url("fonts/devonshire/devonshire-v8-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */ url("fonts/devonshire/devonshire-v8-latin-regular.woff") format("woff"), /* Modern Browsers */ url("fonts/devonshire/devonshire-v8-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */ url("fonts/devonshire/devonshire-v8-latin-regular.svg#Devonshire") format("svg"); /* Legacy iOS */
 }
 
 /* croissant-one-regular - latin */
@@ -43,11 +35,7 @@
     font-weight: 400;
     src: url("fonts/croissant-one/croissant-one-v7-latin-regular.eot"); /* IE9 Compat Modes */
     src: local("Croissant One"), local('CroissantOne-Regular'),
-    url("fonts/croissant-one/croissant-one-v7-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("fonts/croissant-one/croissant-one-v7-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
-    url("fonts/croissant-one/croissant-one-v7-latin-regular.woff") format("woff"), /* Modern Browsers */
-    url("fonts/croissant-one/croissant-one-v7-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("fonts/croissant-one/croissant-one-v7-latin-regular.svg#CroissantOne") format("svg"); /* Legacy iOS */
+    url("fonts/croissant-one/croissant-one-v7-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("fonts/croissant-one/croissant-one-v7-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */ url("fonts/croissant-one/croissant-one-v7-latin-regular.woff") format("woff"), /* Modern Browsers */ url("fonts/croissant-one/croissant-one-v7-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */ url("fonts/croissant-one/croissant-one-v7-latin-regular.svg#CroissantOne") format("svg"); /* Legacy iOS */
 }
 
 /* noto-serif-regular - latin */
@@ -57,11 +45,7 @@
     font-weight: 400;
     src: url('/fonts/noto-serif/noto-serif-v8-latin-regular.eot'); /* IE9 Compat Modes */
     src: local('Noto Serif'), local('NotoSerif'),
-    url('/fonts/noto-serif/noto-serif-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('/fonts/noto-serif/noto-serif-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('/fonts/noto-serif/noto-serif-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
-    url('/fonts/noto-serif/noto-serif-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('/fonts/noto-serif/noto-serif-v8-latin-regular.svg#NotoSerif') format('svg'); /* Legacy iOS */
+    url('/fonts/noto-serif/noto-serif-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('/fonts/noto-serif/noto-serif-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('/fonts/noto-serif/noto-serif-v8-latin-regular.woff') format('woff'), /* Modern Browsers */ url('/fonts/noto-serif/noto-serif-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('/fonts/noto-serif/noto-serif-v8-latin-regular.svg#NotoSerif') format('svg'); /* Legacy iOS */
 }
 
 /* dancing-script-regular - latin */
@@ -71,11 +55,7 @@
     font-weight: 400;
     src: url("fonts/dancing-script/dancing-script-v14-latin-regular.eot"); /* IE9 Compat Modes */
     src: local(""),
-    url("fonts/dancing-script/dancing-script-v14-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("fonts/dancing-script/dancing-script-v14-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
-    url("fonts/dancing-script/dancing-script-v14-latin-regular.woff") format("woff"), /* Modern Browsers */
-    url("fonts/dancing-script/dancing-script-v14-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("fonts/dancing-script/dancing-script-v14-latin-regular.svg#DancingScript") format("svg"); /* Legacy iOS */
+    url("fonts/dancing-script/dancing-script-v14-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("fonts/dancing-script/dancing-script-v14-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */ url("fonts/dancing-script/dancing-script-v14-latin-regular.woff") format("woff"), /* Modern Browsers */ url("fonts/dancing-script/dancing-script-v14-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */ url("fonts/dancing-script/dancing-script-v14-latin-regular.svg#DancingScript") format("svg"); /* Legacy iOS */
 }
 
 /* kaushan-script-regular - latin */
@@ -85,11 +65,7 @@
     font-weight: 400;
     src: url("fonts/kaushan-script/kaushan-script-v8-latin-regular.eot"); /* IE9 Compat Modes */
     src: local("Kaushan Script"), local("KaushanScript-Regular"),
-    url("fonts/kaushan-script/kaushan-script-v8-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("fonts/kaushan-script/kaushan-script-v8-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
-    url("fonts/kaushan-script/kaushan-script-v8-latin-regular.woff") format("woff"), /* Modern Browsers */
-    url("fonts/kaushan-script/kaushan-script-v8-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("fonts/kaushan-script/kaushan-script-v8-latin-regular.svg#KaushanScript") format("svg"); /* Legacy iOS */
+    url("fonts/kaushan-script/kaushan-script-v8-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("fonts/kaushan-script/kaushan-script-v8-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */ url("fonts/kaushan-script/kaushan-script-v8-latin-regular.woff") format("woff"), /* Modern Browsers */ url("fonts/kaushan-script/kaushan-script-v8-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */ url("fonts/kaushan-script/kaushan-script-v8-latin-regular.svg#KaushanScript") format("svg"); /* Legacy iOS */
 }
 
 /******************** BODY ********************/
@@ -114,7 +90,7 @@ a {
 /*************** headings ***************/
 
 h1 {
-    font-size: 70px;
+    font-size: 80px;
     letter-spacing: -5px;
 }
 
@@ -137,7 +113,7 @@ h4 {
 
 h4::after {
     display: block;
-    content:"";
+    content: "";
     width: 0;
     height: 2px;
     visibility: hidden;
@@ -213,6 +189,7 @@ main {
 .icon-note {
     width: 30%;
 }
+
 .item-note {
     font-family: Devonshire, serif;
     font-size: 20px;
@@ -317,32 +294,25 @@ main {
 
 @keyframes bounce {
     0% {
-        transform: scale(1,1)
-        translateY(0);
+        transform: scale(1, 1) translateY(0);
     }
     10% {
-        transform: scale(1.1, 0.9)
-        translateY(0);
+        transform: scale(1.1, 0.9) translateY(0);
     }
     30% {
-        transform: scale(0.9,1.1)
-        translateY(-0.3em);
+        transform: scale(0.9, 1.1) translateY(-0.3em);
     }
     60% {
-        transform: scale(1.05, 0.95)
-        translateY(0);
+        transform: scale(1.05, 0.95) translateY(0);
     }
     70% {
-        transform: scale(1,1)
-        translateY(0);
+        transform: scale(1, 1) translateY(0);
     }
     95% {
-        transform: scale(1.1, 0.9)
-        translateY(0);
+        transform: scale(1.1, 0.9) translateY(0);
     }
     100% {
-        transform: scale(1.05,0.95)
-        translateY(0);
+        transform: scale(1.05, 0.95) translateY(0);
     }
 }
 
@@ -354,7 +324,7 @@ main {
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    bottom:0;
+    bottom: 0;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -379,6 +349,12 @@ main {
     }
 }
 
+hr {
+    border: none;
+    border-bottom: 1px solid #F1C64C;
+    width: 15%;
+    display: none;
+}
 /******************** DETAILED MENUS ********************/
 
 .menu__menu-main-heading {
@@ -409,6 +385,7 @@ main {
 header .icon-note {
     width: 80px;
 }
+
 .top-note h3 {
     font-family: Devonshire, serif;
     font-size: 50px;
@@ -600,12 +577,12 @@ span {
 }
 
 .starter-palette h4::after {
-    background-color: #3F933A ;
+    background-color: #3F933A;
     height: 3px;
 }
 
 .dish-palette h4::after {
-    background-color: #73C058 ;
+    background-color: #73C058;
     height: 3px;
 }
 
@@ -638,7 +615,7 @@ footer .icon-note {
 
 #terms {
     width: 80%;
-    font-family: Montserrat, serif ;
+    font-family: Montserrat, serif;
     font-size: 20px;
     line-height: 1.5;
 }
@@ -651,7 +628,7 @@ footer .icon-note {
 }
 
 #terms h2::after {
-    content:"";
+    content: "";
     display: block;
     width: 0;
     height: 2px;
@@ -665,191 +642,131 @@ footer .icon-note {
     background-color: #569C87;
 }
 
-
 /******************** MEDIA QUERIES ********************/
 
+/********** Extra Large Devices **********/
 
-/*************** Extra Small Devices ***************/
+@media screen and (max-width: 1220px) {
 
-@media screen and (max-width: 320px) {
-
-/********** Home **********/
-
-    /***** headings *****/
-
-    h1 {
-        font-size: 50px;
-    }
-
-    /***** section menus *****/
+/***** home *****/
 
     #menus {
         width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .menus__menu-item {
-        margin: 0 0 30px;
-        height: 380px;
-    }
-
-    .zoom:hover {
-        transform: scale(1.1);
-    }
-
-    /***** section soon *****/
-
-    #soon {
-        width: 280px;
-        font-size: 20px;
-        margin-bottom: 60px;
-    }
-
-    .dots {
-        font-size: 25px;
-    }
-
-    /***** footer *****/
-
-    .main-footer {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .footer__button {
-        font-size: 16px;
     }
 }
 
-/*************** Small Devices ***************/
+/********** Large Devices **********/
 
-@media screen and (min-width: 321px) and (max-width: 479px) {
+@media screen and (max-width: 980px) {
 
-/********** Home **********/
-
-    /***** headings *****/
+/***** home *****/
 
     h1 {
-        font-size: 60px;
+        font-size: 75px;
     }
 
-    /***** section menus *****/
-
     #menus {
-        width: 100%;
+        justify-content: space-around;
     }
 
     .menus__menu-item {
+        width: 330px;
         height: 470px;
-        margin: 20px 0;
-
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .zoom:hover {
         transform: scale(1.2);
     }
 
-    /***** section soon *****/
-
     #soon {
-        width: 300px;
-        font-size: 20px;
-        margin-bottom: 50px;
+        font-size: 30px;
+        padding: 20px 30px;
     }
 
     .dots {
         font-size: 25px;
-    }
-
-    /***** footer *****/
-
-    .main-footer {
-        padding-left: 10px;
-        padding-right: 10px;
+        margin: 0;
     }
 
     .footer__button {
-        font-size: 18px;
+        font-size: 25px;
     }
 }
 
-/*************** Medium Devices ***************/
+/********** Medium Devices **********/
 
-@media screen and (min-width: 480px) and (max-width: 1023px) {
+@media screen and (max-width: 800px) and (min-width: 481px){
 
-/********** Home **********/
-
-    /***** headings *****/
-
-    h1 {
-        font-size: 80px;
-    }
-
-    /***** section soon *****/
-
-    #soon {
-        margin-top: 10px;
-    }
-
-    /***** footer *****/
-
-    .main-footer {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .footer__button {
-        font-size: 35px;
-    }
-
-}
-
-/*************** Large Devices ***************/
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-
-/********** Home **********/
-
-    /***** section menus *****/
-
-    #menus {
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    /***** section soon *****/
-
-    #soon {
-        margin-bottom: 60px;
-    }
-}
-
-/*************** Extra Large Devices ***************/
-
-@media screen and (min-width: 1280px) {
-
-/********** Home **********/
-
-    /***** headings *****/
-
-    h1 {
-        font-size: 80px;
-    }
-
-    /***** section menus *****/
+/***** home *****/
 
     .menus__menu-item {
-        margin: 70px;
-    }
-
-    /***** section soon *****/
-
-    #soon {
-        margin-bottom: 80px;
+        width: 390px;
     }
 }
+
+/********** Small Devices **********/
+
+@media screen and (max-width: 480px) {
+
+/***** home *****/
+
+    h1 {
+        font-size: 60px;
+    }
+
+    #soon h3{
+        font-size: 25px;
+    }
+
+    .main-footer {
+        flex-direction: column;
+    }
+
+    .footer__button {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    hr {
+        display: block;
+    }
+}
+
+/********** Extra Small Devices **********/
+
+@media screen and (max-width: 320px) {
+
+/***** home *****/
+
+    h1 {
+        font-size: 50px;
+    }
+
+    #menus {
+        padding: 0;
+    }
+
+    .menus__menu-item {
+        width: 300px;
+        height: 420px;
+        margin-bottom: 0;
+    }
+
+    .zoom:hover {
+        transform: scale(1.05);
+    }
+
+    #soon {
+        font-size: 20px;
+        padding: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+
 
 
 
