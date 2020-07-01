@@ -365,6 +365,10 @@ hr {
     padding-bottom: 25px;
 }
 
+.menu__menu-details {
+
+    margin-bottom: 60px;
+}
 .menu__menu-details-title {
     display: flex;
     justify-content: space-between;
@@ -376,7 +380,6 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*padding-top: 85px;*/
     padding-bottom: 65px;
 }
 
@@ -384,6 +387,10 @@ hr {
 
 header .icon-note {
     width: 80px;
+}
+
+.top-note {
+    padding-bottom: 20px;
 }
 
 .top-note h3 {
@@ -435,23 +442,27 @@ header .icon-note {
 }
 
 .menu__menu-details-title {
-    padding-top: 15px;
+    padding-top: 40px;
     padding-bottom: 40px;
 }
 
 .menu__menu-details p {
     display: flex;
     justify-content: space-between;
-    min-width: max-content;
     font-size: 18px;
     padding-bottom: 20px;
     padding-right: 70px;
     padding-left: 70px;
 }
 
-span {
+.choice {
+    padding-right: 20px;
+}
+
+.price {
     font-size: 20px;
     font-weight: bold;
+    min-width: max-content;
 }
 
 /********** detailed menu note **********/
@@ -606,6 +617,10 @@ footer .icon-note {
     padding-right: 10px;
 }
 
+.bottom-note {
+    padding-top: 80px;
+}
+
 .bottom-note h3 {
     font-family: Devonshire, serif;
     font-size: 40px;
@@ -646,6 +661,15 @@ footer .icon-note {
 
 /********** Extra Large Devices **********/
 
+@media screen and (max-width: 1380px) {
+
+/***** menu 1 *****/
+
+    .menu__menu-details {
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 1220px) {
 
 /***** home *****/
@@ -656,6 +680,15 @@ footer .icon-note {
 }
 
 /********** Large Devices **********/
+
+@media screen and (max-width: 1024px) {
+
+/***** menu 1 *****/
+
+    .menu__menu-details {
+        width: 85%;
+    }
+}
 
 @media screen and (max-width: 980px) {
 
@@ -670,7 +703,7 @@ footer .icon-note {
     }
 
     .menus__menu-item {
-        width: 330px;
+        width: 320px;
         height: 470px;
         margin-left: 0;
         margin-right: 0;
@@ -693,16 +726,106 @@ footer .icon-note {
     .footer__button {
         font-size: 25px;
     }
+
+/***** menu 1 *****/
+
+    .menu__menu-main-heading {
+        font-size: 35px;
+    }
+
+    header .icon-note {
+        width: 60px;
+    }
+
+    .top-note h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .line-left, .line-right {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .menu__menu-details p {
+        font-size: 16px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .price {
+        font-size: 16px;
+    }
+
+    footer .icon-note {
+        width: 50px;
+    }
+
+    .bottom-note h3 {
+        font-size: 35px;
+    }
 }
 
 /********** Medium Devices **********/
 
-@media screen and (max-width: 800px) and (min-width: 481px){
+@media screen and (max-width: 768px) {
 
 /***** home *****/
 
+    h1 {
+        font-size: 65px;
+    }
+
     .menus__menu-item {
         width: 390px;
+    }
+
+/***** menu 1 *****/
+
+    .menu__menu-main-heading {
+        font-size: 30px;
+    }
+
+    header .icon-note {
+        width: 50px;
+    }
+
+    .top-note h3 {
+        font-size: 35px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .menu__menu-details {
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+
+    .menu__menu-details p {
+        font-size: 14px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+
+    footer .icon-note {
+        width: 40px;
+    }
+
+    .bottom-note {
+        padding-top: 40px;
+    }
+
+    .bottom-note h3 {
+        font-size: 30px;
     }
 }
 
@@ -710,13 +833,12 @@ footer .icon-note {
 
 @media screen and (max-width: 480px) {
 
-/***** home *****/
-
+    /***** home *****/
     h1 {
         font-size: 60px;
     }
 
-    #soon h3{
+    #soon h3 {
         font-size: 25px;
     }
 
@@ -732,6 +854,36 @@ footer .icon-note {
 
     hr {
         display: block;
+    }
+
+    /***** menu 1 *****/
+
+    .menu__menu-main-heading {
+        font-size: 25px;
+    }
+
+    header .icon-note {
+        width: 40px;
+    }
+
+    .top-note h3 {
+        font-size: 30px;
+    }
+
+    .menu__menu-details-title {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .line-left, .line-right {
+        width: 35%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .menu__menu-details p {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -764,6 +916,44 @@ footer .icon-note {
         padding: 20px;
         margin-top: 40px;
         margin-bottom: 40px;
+    }
+
+    /***** menu 1 *****/
+
+    .menu__menu-main-heading {
+        font-size: 20px;
+    }
+
+    .menu__menu-details {
+        width: 95%;
+        padding-top: 40px;
+    }
+
+    header .icon-note {
+        width: 30px;
+    }
+
+    .top-note h3 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .choice, .price {
+        font-size: 12px;
+    }
+
+    footer .icon-note {
+        width: 35px;
+    }
+
+    .bottom-note h3 {
+        font-size: 25px;
+    }
+    .footer__button {
+        font-size: 15px;
     }
 }
 
