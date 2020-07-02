@@ -689,6 +689,12 @@ footer .icon-note {
     .details-chic h4, .details-chic span {
         font-size: 18px;
     }
+
+    /*** delice ***/
+
+    .details-delice h4, .details-delice span {
+        font-size: 20px;
+    }
 }
 
 /********** Large Devices **********/
@@ -787,6 +793,30 @@ footer .icon-note {
     .top-chic {
         font-size: 40px;
     }
+
+    /*** delice ***/
+
+    .top-delice {
+        font-size: 50px;
+    }
+
+    .details-delice h4, .details-delice span {
+        font-size: 18px;
+    }
+
+    /*** palette ***/
+
+    .top-palette {
+        font-size: 50px;
+    }
+
+    .details-palette h4 {
+        font-size: 20px;
+    }
+
+    .details-palette span {
+        font-size: 16px;
+    }
 }
 
 /********** Medium Devices **********/
@@ -862,6 +892,30 @@ footer .icon-note {
 
     .details-chic h4, .details-chic span {
         font-size: 16px;
+    }
+
+    /*** delice ***/
+
+    .top-delice {
+        font-size: 40px;
+    }
+
+    .details-delice h4, .details-delice span {
+        font-size: 16px;
+    }
+
+    /*** palette ***/
+
+    .top-palette {
+        font-size: 40px;
+    }
+
+    .details-palette h4 {
+        font-size: 18px;
+    }
+
+    .details-palette span {
+        font-size: 14px;
     }
 }
 
@@ -941,6 +995,30 @@ footer .icon-note {
 
     .details-chic h4, .details-chic span {
         font-size: 14px;
+    }
+
+    /*** delice ***/
+
+    .top-delice {
+        font-size: 30px;
+    }
+
+    .details-delice h4, .details-delice span {
+        font-size: 14px;
+    }
+
+    /*** palette ***/
+
+    .top-palette {
+        font-size: 30px;
+    }
+
+    .details-palette h4 {
+        font-size: 16px;
+    }
+
+    .details-palette span {
+        font-size: 12px;
     }
 }
 
@@ -1023,6 +1101,30 @@ footer .icon-note {
 
     .details-chic h4, .details-chic span {
         font-size: 12px;
+    }
+
+    /*** delice ***/
+
+    .top-delice {
+        font-size: 25px;
+    }
+
+    .details-delice h4, .details-delice span {
+        font-size: 12px;
+    }
+
+    /*** palette ***/
+
+    .top-palette {
+        font-size: 25px;
+    }
+
+    .details-palette h4 {
+        font-size: 15px;
+    }
+
+    .details-palette span {
+        font-size: 11px;
     }
 }
 
