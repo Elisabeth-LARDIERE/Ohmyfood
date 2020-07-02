@@ -75,7 +75,7 @@ body {
     flex-direction: column;
 }
 
-.main-header, .main-footer, #soon {
+.main-header, footer, #soon {
     font-family: Montserrat, serif;
     background-color: #569C87;
     color: #F1C64C;
@@ -318,7 +318,7 @@ main {
 
 /******************** FOOTER ********************/
 
-.main-footer {
+footer {
     min-height: 12vh;
     display: flex;
     justify-content: space-between;
@@ -476,16 +476,6 @@ header .icon-note {
     color: #3D1319;
 }
 
-/*.line-left-note {
-    width: 37%;
-    padding-left: 70px;
-}
-
-.line-right-note {
-    width: 37%;
-    padding-right: 70px;
-}*/
-
 .details-note h4::after {
     background-color: #3D1319;
 }
@@ -500,16 +490,6 @@ header .icon-note {
     font-family: "Noto Serif", serif;
     background-color: #FFF5FE;
 }
-
-/*.line-left-chic {
-    padding-left: 15px;
-    width: 33%;
-}
-
-.line-right-chic {
-    padding-right: 15px;
-    width: 33%;
-}*/
 
 .details-chic p {
     font-size: 20px;
@@ -550,16 +530,6 @@ header .icon-note {
     background-color: #EDEFEF;
 }
 
-/*.line-left-delice {
-    padding-left: 30px;
-    width: 33%;
-}
-
-.line-right-delice {
-    padding-right: 30px;
-    width: 33%;
-}*/
-
 .starter-delice h4::after {
     background-color: #0228DD;
     height: 3px;
@@ -581,16 +551,6 @@ header .icon-note {
     background-color: #FDFFFD;
 }
 
-/*.line-left-palette {
-    padding-left: 30px;
-    width: 35%;
-}
-
-.line-right-palette {
-    padding-right: 30px;
-    width: 35%;
-}*/
-
 .starter-palette h4::after {
     background-color: #3F933A;
     height: 3px;
@@ -606,7 +566,7 @@ header .icon-note {
     height: 7%;
 }
 
-/*************** Footer detailed menus ***************/
+/*************** Bottom detailed menus ***************/
 
 .menu__menu-heading-bottom {
     display: flex;
@@ -614,9 +574,9 @@ header .icon-note {
     padding: 40px;
 }
 
-/********** footer menu note **********/
+/********** bottom menu note **********/
 
-footer .icon-note {
+.bottom-note .icon-note {
     width: 60px;
     padding-right: 10px;
 }
@@ -781,7 +741,7 @@ footer .icon-note {
         font-size: 40px;
     }
 
-    footer .icon-note {
+    .bottom .icon-note {
         width: 50px;
     }
 
@@ -883,7 +843,7 @@ footer .icon-note {
         padding-bottom: 0;
     }
 
-    footer .icon-note {
+    .bottom .icon-note {
         width: 40px;
     }
 
@@ -944,7 +904,7 @@ footer .icon-note {
         font-size: 25px;
     }
 
-    .main-footer {
+    footer {
         flex-direction: column;
     }
 
@@ -1096,7 +1056,7 @@ footer .icon-note {
         font-size: 12px;
     }
 
-    footer .icon-note {
+    .bottom-note .icon-note {
         width: 35px;
     }
 
