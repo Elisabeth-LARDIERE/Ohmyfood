@@ -98,11 +98,7 @@ h1 a {
     color: #F1C64C;
 }
 
-h2 {
-    font-weight: normal;
-}
-
-h3 {
+h2, h3 {
     font-weight: normal;
 }
 
@@ -278,10 +274,7 @@ main {
     padding-left: 5px;
     padding-right: 5px;
 
-    animation-name: bounce;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation: bounce 1.5s infinite linear;
 }
 
 .dots:nth-child(3) {
@@ -294,25 +287,32 @@ main {
 
 @keyframes bounce {
     0% {
-        transform: scale(1, 1) translateY(0);
+        transform: scale(1, 1)
+        translateY(0);
     }
     10% {
-        transform: scale(1.1, 0.9) translateY(0);
+        transform: scale(1.1, 0.9)
+        translateY(0);
     }
     30% {
-        transform: scale(0.9, 1.1) translateY(-0.3em);
+        transform: scale(0.9, 1.1)
+        translateY(-0.3em);
     }
     60% {
-        transform: scale(1.05, 0.95) translateY(0);
+        transform: scale(1.05, 0.95)
+        translateY(0);
     }
     70% {
-        transform: scale(1, 1) translateY(0);
+        transform: scale(1, 1)
+        translateY(0);
     }
     95% {
-        transform: scale(1.1, 0.9) translateY(0);
+        transform: scale(1.1, 0.9)
+        translateY(0);
     }
     100% {
-        transform: scale(1.05, 0.95) translateY(0);
+        transform: scale(1.05, 0.95)
+        translateY(0);
     }
 }
 
@@ -428,16 +428,14 @@ hr {
     font-family: "Segoe Print", serif;
     font-size: 20px;
     width: 60%;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding: 80px 0;
     margin-bottom: 60px;
 }
 
 .menu__menu-details-title {
     display: flex;
     justify-content: space-between;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 0;
 }
 
 .line-left {
@@ -453,10 +451,7 @@ hr {
 .menu__menu-details p {
     display: flex;
     justify-content: space-between;
-    font-size: 18px;
-    padding-bottom: 20px;
-    padding-right: 70px;
-    padding-left: 70px;
+    padding: 0 70px 20px;
 }
 
 .choice {
@@ -603,8 +598,7 @@ hr {
 #terms h2 {
     font-weight: bold;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 0;
 }
 
 #terms h2::after {
@@ -684,8 +678,7 @@ hr {
     .menus__menu-item {
         width: 320px;
         height: 470px;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 40px 0;
     }
 
     .zoom:hover {
@@ -717,14 +710,12 @@ hr {
     }
 
     .line-left, .line-right {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding: 0 40px;
     }
 
     .menu__menu-details p {
         font-size: 16px;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding: 0 40px 20px;
     }
 
     .price {
@@ -761,7 +752,7 @@ hr {
         font-size: 50px;
     }
 
-    .details-delice h4, .details-delice span {
+    .details-delice span {
         font-size: 18px;
     }
 
@@ -820,8 +811,6 @@ hr {
 
     .menu__menu-details p {
         font-size: 14px;
-        padding-left: 40px;
-        padding-right: 40px;
     }
 
     .price {
@@ -910,8 +899,7 @@ hr {
 
     .footer__button {
         font-size: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 10px 0;
     }
 
     hr {
@@ -925,8 +913,7 @@ hr {
     }
 
     .menu__menu-details {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding: 40px 0;
     }
 
     .menu__menu-heading-top {
@@ -934,18 +921,15 @@ hr {
     }
 
     .menu__menu-details-title {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding: 20px 0;
     }
 
     .line-left, .line-right {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 0 20px;
     }
 
     .menu__menu-details p {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 0 20px 20px;
     }
 
     /*** note ***/
@@ -1020,8 +1004,7 @@ hr {
     #soon {
         font-size: 20px;
         padding: 20px;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin: 40px 0;
     }
 
 /***** menus *****/
