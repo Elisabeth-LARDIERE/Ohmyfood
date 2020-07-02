@@ -365,15 +365,6 @@ hr {
     padding-bottom: 25px;
 }
 
-.menu__menu-details {
-
-    margin-bottom: 60px;
-}
-.menu__menu-details-title {
-    display: flex;
-    justify-content: space-between;
-}
-
 /*************** Header detailed menus ***************/
 
 .menu__menu-heading-top {
@@ -439,11 +430,24 @@ header .icon-note {
     width: 60%;
     padding-top: 80px;
     padding-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .menu__menu-details-title {
+    display: flex;
+    justify-content: space-between;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.line-left {
+    width: 35%;
+    padding-left: 70px;
+}
+
+.line-right {
+    width: 35%;
+    padding-right: 70px;
 }
 
 .menu__menu-details p {
@@ -472,7 +476,7 @@ header .icon-note {
     color: #3D1319;
 }
 
-.line-left-note {
+/*.line-left-note {
     width: 37%;
     padding-left: 70px;
 }
@@ -480,7 +484,7 @@ header .icon-note {
 .line-right-note {
     width: 37%;
     padding-right: 70px;
-}
+}*/
 
 .details-note h4::after {
     background-color: #3D1319;
@@ -497,7 +501,7 @@ header .icon-note {
     background-color: #FFF5FE;
 }
 
-.line-left-chic {
+/*.line-left-chic {
     padding-left: 15px;
     width: 33%;
 }
@@ -505,7 +509,7 @@ header .icon-note {
 .line-right-chic {
     padding-right: 15px;
     width: 33%;
-}
+}*/
 
 .details-chic p {
     font-size: 20px;
@@ -546,7 +550,7 @@ header .icon-note {
     background-color: #EDEFEF;
 }
 
-.line-left-delice {
+/*.line-left-delice {
     padding-left: 30px;
     width: 33%;
 }
@@ -554,7 +558,7 @@ header .icon-note {
 .line-right-delice {
     padding-right: 30px;
     width: 33%;
-}
+}*/
 
 .starter-delice h4::after {
     background-color: #0228DD;
@@ -577,7 +581,7 @@ header .icon-note {
     background-color: #FDFFFD;
 }
 
-.line-left-palette {
+/*.line-left-palette {
     padding-left: 30px;
     width: 35%;
 }
@@ -585,7 +589,7 @@ header .icon-note {
 .line-right-palette {
     padding-right: 30px;
     width: 35%;
-}
+}*/
 
 .starter-palette h4::after {
     background-color: #3F933A;
@@ -663,7 +667,7 @@ footer .icon-note {
 
 @media screen and (max-width: 1380px) {
 
-/***** menu 1 *****/
+/***** menus *****/
 
     .menu__menu-details {
         width: 80%;
@@ -677,13 +681,21 @@ footer .icon-note {
     #menus {
         width: 100%;
     }
+
+/***** menus *****/
+
+    /*** chic ***/
+
+    .details-chic h4, .details-chic span {
+        font-size: 18px;
+    }
 }
 
 /********** Large Devices **********/
 
 @media screen and (max-width: 1024px) {
 
-/***** menu 1 *****/
+/***** menus *****/
 
     .menu__menu-details {
         width: 85%;
@@ -727,18 +739,10 @@ footer .icon-note {
         font-size: 25px;
     }
 
-/***** menu 1 *****/
+/***** menus *****/
 
     .menu__menu-main-heading {
         font-size: 35px;
-    }
-
-    header .icon-note {
-        width: 60px;
-    }
-
-    .top-note h3 {
-        font-size: 40px;
     }
 
     h4 {
@@ -760,12 +764,28 @@ footer .icon-note {
         font-size: 16px;
     }
 
+    /*** note ***/
+
+    header .icon-note {
+        width: 60px;
+    }
+
+    .top-note h3 {
+        font-size: 40px;
+    }
+
     footer .icon-note {
         width: 50px;
     }
 
     .bottom-note h3 {
         font-size: 35px;
+    }
+
+    /*** chic ***/
+
+    .top-chic {
+        font-size: 40px;
     }
 }
 
@@ -783,27 +803,18 @@ footer .icon-note {
         width: 390px;
     }
 
-/***** menu 1 *****/
+/***** menus *****/
 
     .menu__menu-main-heading {
         font-size: 30px;
     }
 
-    header .icon-note {
-        width: 50px;
-    }
-
-    .top-note h3 {
-        font-size: 35px;
+    .menu__menu-heading-top {
+        padding-bottom: 45px;
     }
 
     h4 {
         font-size: 16px;
-    }
-
-    .menu__menu-details {
-        padding-top: 60px;
-        padding-bottom: 0;
     }
 
     .menu__menu-details p {
@@ -814,6 +825,21 @@ footer .icon-note {
 
     .price {
         font-size: 14px;
+    }
+
+    /*** note ***/
+
+    header .icon-note {
+        width: 50px;
+    }
+
+    .top-note h3 {
+        font-size: 35px;
+    }
+
+    .details-note {
+        padding-top: 60px;
+        padding-bottom: 0;
     }
 
     footer .icon-note {
@@ -827,13 +853,24 @@ footer .icon-note {
     .bottom-note h3 {
         font-size: 30px;
     }
+
+    /*** chic ***/
+
+    .top-chic {
+        font-size: 30px;
+    }
+
+    .details-chic h4, .details-chic span {
+        font-size: 16px;
+    }
 }
 
 /********** Small Devices **********/
 
 @media screen and (max-width: 480px) {
 
-    /***** home *****/
+/***** home *****/
+
     h1 {
         font-size: 60px;
     }
@@ -856,11 +893,37 @@ footer .icon-note {
         display: block;
     }
 
-    /***** menu 1 *****/
+/***** menus *****/
 
     .menu__menu-main-heading {
         font-size: 25px;
     }
+
+    .menu__menu-details {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .menu__menu-heading-top {
+        padding-bottom: 25px;
+    }
+
+    .menu__menu-details-title {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .line-left, .line-right {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .menu__menu-details p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /*** note ***/
 
     header .icon-note {
         width: 40px;
@@ -870,20 +933,14 @@ footer .icon-note {
         font-size: 30px;
     }
 
-    .menu__menu-details-title {
-        padding-top: 20px;
-        padding-bottom: 20px;
+    /*** chic ***/
+
+    .top-chic {
+        font-size: 20px;
     }
 
-    .line-left, .line-right {
-        width: 35%;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .menu__menu-details p {
-        padding-left: 20px;
-        padding-right: 20px;
+    .details-chic h4, .details-chic span {
+        font-size: 14px;
     }
 }
 
@@ -918,7 +975,7 @@ footer .icon-note {
         margin-bottom: 40px;
     }
 
-    /***** menu 1 *****/
+/***** menus *****/
 
     .menu__menu-main-heading {
         font-size: 20px;
@@ -926,8 +983,13 @@ footer .icon-note {
 
     .menu__menu-details {
         width: 95%;
-        padding-top: 40px;
     }
+
+    .footer__button {
+        font-size: 15px;
+    }
+
+    /*** note ***/
 
     header .icon-note {
         width: 30px;
@@ -937,11 +999,11 @@ footer .icon-note {
         font-size: 25px;
     }
 
-    h4 {
+    .details-note h4 {
         font-size: 14px;
     }
 
-    .choice, .price {
+    .details-note span {
         font-size: 12px;
     }
 
@@ -952,8 +1014,15 @@ footer .icon-note {
     .bottom-note h3 {
         font-size: 25px;
     }
-    .footer__button {
-        font-size: 15px;
+
+    /*** chic ***/
+
+    .top-chic {
+        font-size: 18px;
+    }
+
+    .details-chic h4, .details-chic span {
+        font-size: 12px;
     }
 }
 
