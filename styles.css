@@ -75,7 +75,7 @@ body {
     flex-direction: column;
 }
 
-.main-header, footer, #soon {
+header, footer, #soon {
     font-family: Montserrat, serif;
     background-color: #569C87;
     color: #F1C64C;
@@ -127,7 +127,7 @@ h4:hover::after {
 
 /******************** HEADER ********************/
 
-.main-header {
+header {
     min-height: 20vh;
     display: flex;
     align-items: center;
@@ -365,7 +365,7 @@ hr {
     padding-bottom: 25px;
 }
 
-/*************** Header detailed menus ***************/
+/*************** Top detailed menus ***************/
 
 .menu__menu-heading-top {
     display: flex;
@@ -374,9 +374,9 @@ hr {
     padding-bottom: 65px;
 }
 
-/********** header menu note **********/
+/********** top menu note **********/
 
-header .icon-note {
+.top-note .icon-note {
     width: 80px;
 }
 
@@ -389,7 +389,7 @@ header .icon-note {
     font-size: 50px;
 }
 
-/********** header menu chic **********/
+/********** top menu chic **********/
 
 .top-chic {
     font-family: "Croissant One", serif;
@@ -399,7 +399,7 @@ header .icon-note {
     -webkit-text-fill-color: transparent;
 }
 
-/********** header menu delice **********/
+/********* top menu delice **********/
 
 .top-delice {
     font-family: "Dancing Script", serif;
@@ -409,7 +409,7 @@ header .icon-note {
     -webkit-text-fill-color: transparent;
 }
 
-/********** header menu palette **********/
+/********** top menu palette **********/
 
 .top-palette {
     font-family: "Kaushan Script", serif;
@@ -733,7 +733,7 @@ header .icon-note {
 
     /*** note ***/
 
-    header .icon-note {
+    .top-note .icon-note {
         width: 60px;
     }
 
@@ -741,7 +741,7 @@ header .icon-note {
         font-size: 40px;
     }
 
-    .bottom .icon-note {
+    .bottom-note .icon-note {
         width: 50px;
     }
 
@@ -830,7 +830,7 @@ header .icon-note {
 
     /*** note ***/
 
-    header .icon-note {
+    .top-note .icon-note {
         width: 50px;
     }
 
@@ -843,7 +843,7 @@ header .icon-note {
         padding-bottom: 0;
     }
 
-    .bottom .icon-note {
+    .bottom-note .icon-note {
         width: 40px;
     }
 
@@ -950,7 +950,7 @@ header .icon-note {
 
     /*** note ***/
 
-    header .icon-note {
+    .top-note .icon-note {
         width: 40px;
     }
 
@@ -1040,7 +1040,7 @@ header .icon-note {
 
     /*** note ***/
 
-    header .icon-note {
+    .top-note .icon-note {
         width: 30px;
     }
 
