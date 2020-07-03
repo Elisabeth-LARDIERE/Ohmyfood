@@ -141,7 +141,7 @@ main {
 
 /*************** Section menus ***************/
 
-#menus {
+#menus-items{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -149,7 +149,7 @@ main {
     width: 80%;
 }
 
-.menus__menu-item {
+.item {
     box-shadow: 0 0 40px 5px #E2E2E2;
     width: 370px;
     height: 500px;
@@ -174,7 +174,7 @@ main {
     opacity: 0.3;
 }
 
-.menus__menu-title {
+.item-title {
     margin-top: 15px;
     font-family: "Segoe Print", serif;
     font-size: 35px;
@@ -197,7 +197,7 @@ main {
     color: #3D1319;
 }
 
-.title-note {
+.item-title-note {
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -218,7 +218,7 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
-.title-chic {
+.item-title-chic {
     font-family: "Noto Serif", serif;
 }
 
@@ -329,13 +329,13 @@ footer {
     padding-right: 20px;
 }
 
-.footer__button {
+.button {
     color: #F1C64C;
     font-size: 30px;
     font-weight: bold;
 }
 
-.footer__button:hover {
+.button:hover {
     animation: wiggle 100ms ease-in-out 8 alternate;
 }
 
@@ -633,7 +633,7 @@ hr {
 
 /***** home *****/
 
-    #menus {
+    #menus-items {
         width: 100%;
     }
 
@@ -671,11 +671,11 @@ hr {
         font-size: 75px;
     }
 
-    #menus {
+    #menus-items {
         justify-content: space-around;
     }
 
-    .menus__menu-item {
+    .item {
         width: 320px;
         height: 470px;
         margin: 40px 0;
@@ -695,7 +695,7 @@ hr {
         margin: 0;
     }
 
-    .footer__button {
+    .button {
         font-size: 25px;
     }
 
@@ -791,7 +791,7 @@ hr {
         font-size: 65px;
     }
 
-    .menus__menu-item {
+    .item {
         width: 390px;
     }
 
@@ -897,7 +897,7 @@ hr {
         flex-direction: column;
     }
 
-    .footer__button {
+    .button {
         font-size: 20px;
         padding: 10px 0;
     }
@@ -991,7 +991,7 @@ hr {
         padding: 0;
     }
 
-    .menus__menu-item {
+    .item {
         width: 300px;
         height: 420px;
         margin-bottom: 0;
@@ -1017,7 +1017,7 @@ hr {
         width: 95%;
     }
 
-    .footer__button {
+    .button {
         font-size: 15px;
     }
 
