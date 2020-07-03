@@ -357,7 +357,7 @@ hr {
 }
 /******************** DETAILED MENUS ********************/
 
-.menu__menu-main-heading {
+.card-heading {
     font-family: Montserrat, serif;
     font-size: 40px;
     font-weight: bold;
@@ -367,7 +367,7 @@ hr {
 
 /*************** Top detailed menus ***************/
 
-.menu__menu-heading-top {
+.card-details-heading-top {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -376,7 +376,7 @@ hr {
 
 /********** top menu note **********/
 
-.top-note .icon-note {
+.icon-note-top {
     width: 80px;
 }
 
@@ -421,7 +421,7 @@ hr {
 
 /*************** Section detailed menus ***************/
 
-.menu__menu-details {
+.card-details {
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 35px 10px #E2E2E2;
@@ -432,7 +432,7 @@ hr {
     margin-bottom: 60px;
 }
 
-.menu__menu-details-title {
+.card-details-title {
     display: flex;
     justify-content: space-between;
     padding: 40px 0;
@@ -448,7 +448,7 @@ hr {
     padding-right: 70px;
 }
 
-.menu__menu-details p {
+.card-details-choice p {
     display: flex;
     justify-content: space-between;
     padding: 0 70px 20px;
@@ -475,10 +475,6 @@ hr {
     background-color: #3D1319;
 }
 
-.dessert-note h4::after {
-    height: 7%;
-}
-
 /********** detailed menu chic **********/
 
 .details-chic {
@@ -489,10 +485,6 @@ hr {
 .details-chic p {
     font-size: 20px;
     padding-bottom: 20px;
-}
-
-.details-chic h4::after {
-    height: 8%;
 }
 
 .starter-chic {
@@ -527,17 +519,14 @@ hr {
 
 .starter-delice h4::after {
     background-color: #0228DD;
-    height: 3px;
 }
 
 .dish-delice h4::after {
     background-color: #2782F2;
-    height: 3px;
 }
 
 .dessert-delice h4::after {
     background-color: #229DF9;
-    height: 3px;
 }
 
 /********** detailed menu palette **********/
@@ -548,22 +537,19 @@ hr {
 
 .starter-palette h4::after {
     background-color: #3F933A;
-    height: 3px;
 }
 
 .dish-palette h4::after {
     background-color: #73C058;
-    height: 3px;
 }
 
 .dessert-palette h4::after {
     background-color: #BEFF7F;
-    height: 7%;
 }
 
 /*************** Bottom detailed menus ***************/
 
-.menu__menu-heading-bottom {
+.card-details-heading-bottom {
     display: flex;
     justify-content: center;
     padding: 40px;
@@ -571,7 +557,7 @@ hr {
 
 /********** bottom menu note **********/
 
-.bottom-note .icon-note {
+.icon-note-bottom {
     width: 60px;
     padding-right: 10px;
 }
@@ -587,7 +573,7 @@ hr {
 
 /******************** TERMS ********************/
 
-#terms {
+#terms-articles {
     width: 80%;
     font-family: Montserrat, serif;
     font-size: 20px;
@@ -595,13 +581,13 @@ hr {
     padding-bottom: 30px;
 }
 
-#terms h2 {
+.terms h2 {
     font-weight: bold;
     text-align: center;
     padding: 30px 0;
 }
 
-#terms h2::after {
+.terms h2::after {
     content: "";
     display: block;
     width: 0;
@@ -610,7 +596,7 @@ hr {
     transition: all 0.3s ease-in-out;
 }
 
-#terms h2:hover::after {
+.terms h2:hover::after {
     width: 100%;
     visibility: visible;
     background-color: #569C87;
@@ -624,7 +610,7 @@ hr {
 
 /***** menus *****/
 
-    .menu__menu-details {
+    .card-details {
         width: 80%;
     }
 }
@@ -658,7 +644,7 @@ hr {
 
 /***** menus *****/
 
-    .menu__menu-details {
+    .card-details {
         width: 85%;
     }
 }
@@ -701,7 +687,7 @@ hr {
 
 /***** menus *****/
 
-    .menu__menu-main-heading {
+    .card-heading {
         font-size: 35px;
     }
 
@@ -713,7 +699,7 @@ hr {
         padding: 0 40px;
     }
 
-    .menu__menu-details p {
+    .card-details p {
         font-size: 16px;
         padding: 0 40px 20px;
     }
@@ -724,7 +710,7 @@ hr {
 
     /*** note ***/
 
-    .top-note .icon-note {
+    .icon-note-top {
         width: 60px;
     }
 
@@ -732,7 +718,7 @@ hr {
         font-size: 40px;
     }
 
-    .bottom-note .icon-note {
+    .icon-note-bottom {
         width: 50px;
     }
 
@@ -772,11 +758,11 @@ hr {
 
 /***** terms *****/
 
-    #terms {
+    .terms {
         font-size: 16px;
     }
 
-    #terms h2 {
+    .terms h2 {
         font-size: 22px;
     }
 }
@@ -797,11 +783,11 @@ hr {
 
 /***** menus *****/
 
-    .menu__menu-main-heading {
+    .card-heading {
         font-size: 30px;
     }
 
-    .menu__menu-heading-top {
+    .card-details-heading-top {
         padding-bottom: 45px;
     }
 
@@ -809,7 +795,7 @@ hr {
         font-size: 16px;
     }
 
-    .menu__menu-details p {
+    .card-details p {
         font-size: 14px;
     }
 
@@ -819,7 +805,7 @@ hr {
 
     /*** note ***/
 
-    .top-note .icon-note {
+    .icon-note-top {
         width: 50px;
     }
 
@@ -832,7 +818,7 @@ hr {
         padding-bottom: 0;
     }
 
-    .bottom-note .icon-note {
+    .icon-note-bottom {
         width: 40px;
     }
 
@@ -908,19 +894,19 @@ hr {
 
 /***** menus *****/
 
-    .menu__menu-main-heading {
+    .card-heading {
         font-size: 25px;
     }
 
-    .menu__menu-details {
+    .card-details {
         padding: 40px 0;
     }
 
-    .menu__menu-heading-top {
+    .card-details-heading-top {
         padding-bottom: 25px;
     }
 
-    .menu__menu-details-title {
+    .card-details-title {
         padding: 20px 0;
     }
 
@@ -928,13 +914,13 @@ hr {
         padding: 0 20px;
     }
 
-    .menu__menu-details p {
+    .card-details p {
         padding: 0 20px 20px;
     }
 
     /*** note ***/
 
-    .top-note .icon-note {
+    .icon-note-top {
         width: 40px;
     }
 
@@ -987,7 +973,7 @@ hr {
         font-size: 50px;
     }
 
-    #menus {
+    #menus-items {
         padding: 0;
     }
 
@@ -1009,11 +995,11 @@ hr {
 
 /***** menus *****/
 
-    .menu__menu-main-heading {
+    .card-heading {
         font-size: 20px;
     }
 
-    .menu__menu-details {
+    .card-details {
         width: 95%;
     }
 
@@ -1023,7 +1009,7 @@ hr {
 
     /*** note ***/
 
-    .top-note .icon-note {
+    .icon-note-top {
         width: 30px;
     }
 
@@ -1039,7 +1025,7 @@ hr {
         font-size: 12px;
     }
 
-    .bottom-note .icon-note {
+    .icon-note-bottom {
         width: 35px;
     }
 
@@ -1083,11 +1069,11 @@ hr {
 
 /***** terms *****/
 
-    #terms {
+    .terms {
         font-size: 14px;
     }
 
-    #terms h2 {
+    .terms h2 {
         font-size: 20px;
     }
 }
