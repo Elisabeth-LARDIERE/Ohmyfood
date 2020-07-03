@@ -75,7 +75,7 @@ body {
     flex-direction: column;
 }
 
-header, footer, #soon {
+header, footer, .soon {
     font-family: Montserrat, serif;
     background-color: #569C87;
     color: #F1C64C;
@@ -141,7 +141,7 @@ main {
 
 /*************** Section menus ***************/
 
-#menus-items{
+.menus-items{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -254,7 +254,7 @@ main {
 
 /*************** Section soon ***************/
 
-#soon {
+.soon {
     display: flex;
     font-size: 35px;
     padding: 20px 40px;
@@ -264,7 +264,7 @@ main {
     margin-bottom: 70px;
 }
 
-#soon h3 {
+.soon h3 {
     padding-right: 10px;
 }
 
@@ -428,7 +428,7 @@ hr {
     font-family: "Segoe Print", serif;
     font-size: 20px;
     width: 60%;
-    padding: 80px 0;
+    padding: 80px 50px;
     margin-bottom: 60px;
 }
 
@@ -439,19 +439,19 @@ hr {
 }
 
 .line-left {
-    width: 35%;
-    padding-left: 70px;
+    width: 32%;
+    padding-right: 10px;
 }
 
 .line-right {
-    width: 35%;
-    padding-right: 70px;
+    width: 32%;
+    padding-left: 10px;
 }
 
 .card-details-choice p {
     display: flex;
     justify-content: space-between;
-    padding: 0 70px 20px;
+    padding-bottom: 20px;
 }
 
 .choice {
@@ -484,7 +484,6 @@ hr {
 
 .details-chic p {
     font-size: 20px;
-    padding-bottom: 20px;
 }
 
 .starter-chic {
@@ -573,7 +572,7 @@ hr {
 
 /******************** TERMS ********************/
 
-#terms-articles {
+.terms-articles {
     width: 80%;
     font-family: Montserrat, serif;
     font-size: 20px;
@@ -619,7 +618,7 @@ hr {
 
 /***** home *****/
 
-    #menus-items {
+    .menus-items {
         width: 100%;
     }
 
@@ -657,7 +656,7 @@ hr {
         font-size: 75px;
     }
 
-    #menus-items {
+    .menus-items {
         justify-content: space-around;
     }
 
@@ -671,7 +670,7 @@ hr {
         transform: scale(1.2);
     }
 
-    #soon {
+    .soon {
         font-size: 30px;
         padding: 20px 30px;
     }
@@ -695,13 +694,8 @@ hr {
         font-size: 18px;
     }
 
-    .line-left, .line-right {
-        padding: 0 40px;
-    }
-
     .card-details p {
         font-size: 16px;
-        padding: 0 40px 20px;
     }
 
     .price {
@@ -875,7 +869,7 @@ hr {
         font-size: 60px;
     }
 
-    #soon h3 {
+    .soon h3 {
         font-size: 25px;
     }
 
@@ -899,7 +893,7 @@ hr {
     }
 
     .card-details {
-        padding: 40px 0;
+        padding: 30px 20px;
     }
 
     .card-details-heading-top {
@@ -911,11 +905,7 @@ hr {
     }
 
     .line-left, .line-right {
-        padding: 0 20px;
-    }
-
-    .card-details p {
-        padding: 0 20px 20px;
+        width: 30%;
     }
 
     /*** note ***/
@@ -928,9 +918,13 @@ hr {
         font-size: 30px;
     }
 
+    .bottom-note h3 {
+        font-size: 25px;
+    }
+
     /*** chic ***/
 
-    .top-chic {
+    .top-chic h3 {
         font-size: 20px;
     }
 
@@ -973,7 +967,7 @@ hr {
         font-size: 50px;
     }
 
-    #menus-items {
+    .menus-items {
         padding: 0;
     }
 
@@ -987,7 +981,7 @@ hr {
         transform: scale(1.05);
     }
 
-    #soon {
+    .soon {
         font-size: 20px;
         padding: 20px;
         margin: 40px 0;
@@ -1030,7 +1024,7 @@ hr {
     }
 
     .bottom-note h3 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     /*** chic ***/
