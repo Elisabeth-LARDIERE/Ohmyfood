@@ -882,6 +882,10 @@ hr {
         font-size: 60px;
     }
 
+    .zoom:hover {
+        transform: scale(1.1);
+    }
+
     .soon h3 {
         font-size: 25px;
     }
