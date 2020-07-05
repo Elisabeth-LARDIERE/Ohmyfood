@@ -174,7 +174,7 @@ main {
     justify-content: center;
 }
 
-/*************** Section menus ***************/
+/*************** Section menus-items ***************/
 
 .menus-items{
     display: flex;
@@ -215,7 +215,7 @@ main {
     font-size: 35px;
 }
 
-/********** menu note **********/
+/********** item note **********/
 
 .icon-note {
     width: 30%;
@@ -237,7 +237,7 @@ main {
     font-weight: bold;
 }
 
-/********** menu chic **********/
+/********** item chic **********/
 
 .item-chic {
     font-family: "Croissant One", serif;
@@ -257,7 +257,7 @@ main {
     font-family: "Noto Serif", serif;
 }
 
-/********** menu delice **********/
+/********** item delice **********/
 
 .item-delice {
     font-family: "Dancing Script", serif;
@@ -273,7 +273,7 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
-/********** menu palette **********/
+/********** item palette **********/
 
 .item-palette {
     font-family: "Kaushan Script", serif;
