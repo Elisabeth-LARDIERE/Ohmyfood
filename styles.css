@@ -268,7 +268,7 @@ main {
 
 .item-delice h2 {
     padding-left: 2px;
-    background: -webkit-linear-gradient(left, #0228DD, #2782F2, #229DF9);
+    background: -webkit-linear-gradient(left, #0228DD, #0887FB, #229DF9);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -418,7 +418,7 @@ hr {
 .top-delice {
     font-family: "Dancing Script", serif;
     font-size: 70px;
-    background: -webkit-linear-gradient(left, #0228DD, #2782F2, #229DF9);
+    background: -webkit-linear-gradient(left, #0228DD, #0887FB, #229DF9);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -486,7 +486,7 @@ hr {
 }
 
 .details-note h4::after {
-    background-color: #3D1319;
+   background-color: #3D1319;
 }
 
 /********** detailed menu chic **********/
@@ -535,7 +535,7 @@ hr {
 }
 
 .dish-delice h4::after {
-    background-color: #2782F2;
+    background-color: #0887FB;
 }
 
 .dessert-delice h4::after {
@@ -553,7 +553,7 @@ hr {
 }
 
 .dish-palette h4::after {
-    background-color: #73C058;
+    background-color: #73c058;
 }
 
 .dessert-palette h4::after {
@@ -612,7 +612,7 @@ hr {
 .terms h2:hover::after {
     width: 100%;
     visibility: visible;
-    background-color: #569C87;
+    background-color: #569c87;
 }
 
 /******************** MEDIA QUERIES ********************/
