@@ -736,13 +736,13 @@ hr {
 
     /*** chic ***/
 
-    .top-chic {
+    .top-chic h3 {
         font-size: 40px;
     }
 
     /*** delice ***/
 
-    .top-delice {
+    .top-delice h3 {
         font-size: 50px;
     }
 
@@ -752,7 +752,7 @@ hr {
 
     /*** palette ***/
 
-    .top-palette {
+    .top-palette h3{
         font-size: 50px;
     }
 
@@ -822,7 +822,7 @@ hr {
     }
 
     .details-note {
-        padding: 60px 0 0;
+        padding: 60px 30px 0;
     }
 
     .icon-note-bottom {
@@ -839,7 +839,7 @@ hr {
 
     /*** chic ***/
 
-    .top-chic {
+    .top-chic h3 {
         font-size: 30px;
     }
 
@@ -849,7 +849,7 @@ hr {
 
     /*** delice ***/
 
-    .top-delice {
+    .top-delice h3 {
         font-size: 40px;
     }
 
@@ -859,7 +859,7 @@ hr {
 
     /*** palette ***/
 
-    .top-palette {
+    .top-palette h3 {
         font-size: 40px;
     }
 
@@ -951,7 +951,7 @@ hr {
 
     /*** delice ***/
 
-    .top-delice {
+    .top-delice h3 {
         font-size: 30px;
     }
 
@@ -961,7 +961,7 @@ hr {
 
     /*** palette ***/
 
-    .top-palette {
+    .top-palette h3 {
         font-size: 30px;
     }
 
@@ -1046,7 +1046,7 @@ hr {
 
     /*** chic ***/
 
-    .top-chic {
+    .top-chic h3 {
         font-size: 18px;
     }
 
@@ -1056,7 +1056,7 @@ hr {
 
     /*** delice ***/
 
-    .top-delice {
+    .top-delice h3{
         font-size: 25px;
     }
 
@@ -1066,7 +1066,7 @@ hr {
 
     /*** palette ***/
 
-    .top-palette {
+    .top-palette h3{
         font-size: 25px;
     }
 
