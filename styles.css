@@ -586,8 +586,9 @@ hr {
 
 /******************** TERMS ********************/
 
-.terms-articles {
+.terms {
     width: 80%;
+    margin: auto;
     font-family: Montserrat, serif;
     font-size: 20px;
     line-height: 1.5;
@@ -766,11 +767,11 @@ hr {
 
 /***** terms *****/
 
-    .terms {
+    .terms-articles {
         font-size: 16px;
     }
 
-    .terms h2 {
+    .terms-articles h2 {
         font-size: 22px;
     }
 }
@@ -1080,11 +1081,11 @@ hr {
 
 /***** terms *****/
 
-    .terms {
+    .terms-articles {
         font-size: 14px;
     }
 
-    .terms h2 {
+    .terms-articles h2 {
         font-size: 20px;
     }
 }
